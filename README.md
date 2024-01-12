@@ -8,21 +8,21 @@ This covers using Stacks.
 
 File is in the Step1 Group and is called StackView1
 
-Place Items seperate from each other from top to bottom.
+↕️ Place Items seperate from each other from top to bottom.
 ```
 VStack{
   Text("You can have up to 10 seperate items in this stack,  Another stack counts as 1 item")
 }
 ```
 
-Place Items side by side. 
+↔️ Place Items side by side. 
 ```
 HStack{
   Text("Same as the Vstack in placing items in it")
 }
 ```
 
-Place items on top of each other.  The default is centered. 
+⿻ Place items on top of each other.  The default is centered. 
 ```
 ZStack{
   Text("Stuff at the top will be at the bottom.")
@@ -41,7 +41,7 @@ There is a challenge activity in the same folder.
 ## Part 2 
 In this part we looked at images and text. 
 
-Images need to go in the assetts folder.  They can be either png or jpeg.  
+🖼️ Images need to go in the assetts folder.  They can be either png or jpeg.  
 Here is an example of an image that is resized to a 300 x 300 square. 
 ```
   Image("name of Image")
